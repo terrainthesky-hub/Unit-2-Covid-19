@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+scikit-learn = "*"
+pandas = "*"
+numpy = "*"
+dash = "*"
+dash-html-components = "*"
+dash-core-components = "*"
+category-encoders = "*"
+plotly = "*"
+matplotlib = "*"
+
+[requires]
+python_version = "3.7"
